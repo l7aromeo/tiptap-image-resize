@@ -2,7 +2,7 @@ import React, {Component, FC, ReactElement} from "react";
 import {mergeAttributes, nodeInputRule, Node} from "@tiptap/core";
 import {ReactNodeViewRenderer} from "@tiptap/react";
 import ImageResizeComponent from "./component/ImageResizeComponent";
-import Image from '@tiptap/extension-image'
+import Image from '@tiptap/extension-image';
 
 export interface ImageOptions {
   inline: boolean,
